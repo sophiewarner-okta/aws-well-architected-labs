@@ -6,6 +6,18 @@ weight = 1
 
 ### Account setup 
 
+
+**If you are attending an in-person workshop and were provided with an AWS account by the instructor**:
+
+{{%expand "Click here for instructions to access your assigned AWS account:" %}} {{% common/Workshop_AWS_Account %}} {{% /expand%}}
+
+**If you are using your own AWS account**:
+{{%expand "Click here for instructions to use your own AWS account:" %}} 
+* Sign in to the AWS Management Console as an IAM user who has PowerUserAccess or AdministratorAccess permissions, to ensure successful execution of this lab.
+* You will need the AWS credentials, `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY`, of this IAM user for later use in this lab.
+    * If you do not have this IAM user's credentials or you wish to create a new IAM user with needed permissions, follow the [instructions here to create them]({{< ref "Documentation/Self_AWS_Account.md" >}})
+{{% /expand%}}
+
 #### Using an account provided by instructor at virtual or in-person workshop
 
 If you are running this workshop as part of an instructor led workshop, please log into the console using [this link](https://dashboard.eventengine.run/) and enter the hash provided to you as part of the workshop.
